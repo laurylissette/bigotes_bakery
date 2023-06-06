@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bigotes Bakery</title>
+  <link rel="shortcut icon" href="../img/perro.ico">
+   <!-- Archivo CSS Bootstrap 5 -->
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+   <!--CSS -->
+   <link rel="stylesheet" href="./css/estilo.css">
+   <link rel="stylesheet" href="../css/estilo_pages.css">
+   <link rel="script" href="../js/menu.js">
+</head>
+<header>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+      <img src="../img/perro.ico" alt="" width="30" height="24">
+    </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="../index.html">Inicio <span class="sr-only"></span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/pages/quienes-somos.html">Quiénes Somos</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Catálogo
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="/pages/tortas.html">Tortas de Cumpleaños</a>
+              <a class="dropdown-item" href="/pages/galletas.html">Galletas y Más</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Aprende con nosotros
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="/pages/tortas.html">Videos con recetas</a>
+            </div>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" href="/pages/contactame.html">Contacto</a>
+            </li>
+        </ul>
+      </div>
+    </nav>
+</header>
+<main>
+  <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active" data-bs-interval="3000">
+        <img src="../img/carrusel1.png" class="d-block w-100 img-fluid" alt="banner1">
+      </div>
+      <div class="carousel-item" data-bs-interval="2000">
+        <img src="../img/carrusel2.png" class="d-block w-100 img-fluid" alt="banner2">
+      </div>
+      <div class="carousel-item">
+        <img src="../img/carrusel3.png" class="d-block w-100 img-fluid" alt="banner3">
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Anterior</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Siguiente</span>
+    </button>
+  </div>
+
+   <div class="div1">
+        <h2>Aprende con nosotros</h2>
+      </div> 
+      </div> 
+   <div class="div2">
+        <p><b>¡Bienvenidos a Bigotes Bakery!</b> Te dejamos a la mano, estas ricas recetas, par que tu mism@ puedas realizarlas en tu casa, y consentir a tu mascota. Siguiendo los pasos de los siguientes videos, podrás también sentir y conocer, la materia prima de muestros productos y además el cariño y esmero que tenemos</p>
+        <span><h3>1- Prepara una rica gelatina para gatos</h3></span>
+        <div class="video_center">   
+                <video width="50%" controls>
+                    <source src="/media/gelatina_gatos.mp4" type="video/mp4">
+                </video>
+        </div>    
+        <span><h3>1- Helados para las mascotas para el Verano</h3></span>     
+        <div class="video_you">
+            <iframe width="850" height="550" src="https://www.youtube.com/embed/d77f73Ol6aE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+   </div>
+  </div>
+      
+</main>
+<footer>
+
+</footer>
+
+   <!-- Archivo JS Bootstrap -->  
+    <!--script-->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    
+</body>
+</html>

@@ -328,11 +328,4 @@ color: white;
 
 /* Pie de página:*/
 
-footer {
-	display: flex;
-	justify-content:left;
-	margin: auto;
-	margin-top: 0;
-	background-color:#3bf32a ;
-	}
 
